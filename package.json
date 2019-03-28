@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/project-builder/projectbuilder-fs-s3/issues"
   },
-  "homepage": "https://github.com/project-builder/projectbuilder-fs-s3#readme"
+  "homepage": "https://github.com/project-builder/projectbuilder-fs-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.430.0"
+  }
 }
