@@ -1,0 +1,20 @@
+{
+  "name": "@projectbuilder/projectbuilder-fs-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-builder/projectbuilder-fs-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/project-builder/projectbuilder-fs-s3/issues"
+  },
+  "homepage": "https://github.com/project-builder/projectbuilder-fs-s3#readme"
+}
