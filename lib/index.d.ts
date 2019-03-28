@@ -1,4 +1,3 @@
-import 'idempotent-babel-polyfill';
 declare class s3Controller {
     constructor(config: any);
     addFile: (id: any, model: any, files: any) => Promise<any[]>;
