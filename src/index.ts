@@ -1,8 +1,10 @@
 //import 'idempotent-babel-polyfill'
-import AWS from 'aws-sdk';
+import * as AWS from 'aws-sdk';
 import * as index from './methods/index.js'
 
 class s3Controller{
+    bucket: any;
+    S3: any;
     constructor(config){
         // this.model = model;
         this.bucket = config.bucket;
