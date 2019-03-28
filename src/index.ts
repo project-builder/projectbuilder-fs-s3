@@ -7,7 +7,7 @@ class s3Controller{
     S3: any;
     constructor(config){
         // this.model = model;
-        this.bucket = config.bucket;
+        this.bucket = config.s3Bucket;
         this.S3 = new AWS.S3();
     }
 
